@@ -1,0 +1,32 @@
+
+
+.icone a {
+    border: 1px rgb(182, 182, 182) solid;
+    padding: 10px 14px;
+    margin-right: 3px;
+    transition: 0.3s;
+    background-color: rgb(17, 17, 48);
+    border-radius: 12px;
+    color: beige;
+}
+
+.icone a:hover {
+   color: rgb(233, 177, 23);
+   border: 1px solid white;
+}
+
+.parent-links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.parent-links a:hover {
+    transform-origin: left;
+    transform: scalex(1.05);
+}
+
+.parent-input input{
+border: 1px solid gray;
+}
