@@ -1,3 +1,20 @@
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+
+body {
+    background-color: #000000;
+    font-family: serif;
+}
+
+body *::selection {
+    background-color: #4b2c2c;
+}
+
 
 
 .icone a {
@@ -5,14 +22,22 @@
     padding: 10px 14px;
     margin-right: 3px;
     transition: 0.3s;
-    background-color: rgb(17, 17, 48);
+    background-color: rgb(0, 0, 0);
     border-radius: 12px;
     color: beige;
 }
 
+.icone svg{
+color: white;
+transition: 0.2s;
+}
+.icone svg:hover{
+    color: #FF6500;
+}
+
 .icone a:hover {
-   color: rgb(233, 177, 23);
-   border: 1px solid white;
+   color: #FF6500;
+   border: 1px solid #FF6500;
 }
 
 .parent-links a{
@@ -28,5 +53,45 @@
 }
 
 .parent-input input{
-border: 1px solid gray;
+border: 1px solid #ffffff;
+background-color: #000000;
 }
+
+.parent-input input:hover {
+    border: 1px solid #FF6500;
+}
+
+footer {
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+}
+
+/* .footer2 {
+border: 1px solid white;
+} */
+
+.orang {
+    color: #FF6500;
+}
+
+.parent-links svg {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* .icone-tel svg {
+    color: white;
+} */
+
+.button-input {
+    background-color: #ff6500;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.button-input:hover {
+color: #FF6500;
+background-color: #000000;
+/* border: white; */
+}
+
+
+
