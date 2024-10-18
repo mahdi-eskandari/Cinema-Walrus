@@ -1,0 +1,141 @@
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+.mynavbar{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(black,rgba(0, 0, 0, 0));
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    /* padding-top: 3rem;
+    padding-bottom: 40rem; */
+}
+.mynavbar li * {
+    color: beige;
+}
+.mynavbar li *:hover , .mynavbar li *::selection {
+    color: #ff6500;
+    background-color: rgba(0, 0, 0, 0);
+}
+.namecin , .namecin:hover{
+    color: #FF6500;
+    font-family: "Bebas Neue" , serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.genermenu {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.genermenu li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blackbg {
+    position: absolute;
+    /* top: 5rem; */
+    /* height: 42.45rem; */
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.blackbg h2 {
+    color: #FF6500;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Protest Strike" , serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.blackbg span {
+    color: beige;
+    font-size: 1.3rem;
+    font-family: "Antic" , serif;
+}
+.othergener a{
+    color: rgba(245, 245, 220, 0.616);
+    text-decoration: none;
+    z-index: 12;
+
+}
+.othergeners {
+    margin-top: 2.1rem;
+}
+.blackbgbot {
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(rgba(0,0,0,0), black);
+}
+
+
+@media (max-width:900px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.15rem;
+        font-family: "Antic" , serif;
+    }
+}
+@media (max-width:700px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.09rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+@media (max-width:500px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
