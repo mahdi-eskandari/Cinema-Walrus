@@ -1,0 +1,354 @@
+/* Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Protest Strike */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+/* Antic */
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+
+body {
+    background-color: #000000;
+    font-family: serif;
+}
+
+body *::selection {
+    background-color: #4b2c2c;
+}
+.mynavbar{
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(black,rgba(0, 0, 0, 0));
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    /* padding-top: 3rem;
+    padding-bottom: 40rem; */
+}
+.mynavbar li * {
+    color: beige;
+}
+.mynavbar li *:hover , .mynavbar li *::selection {
+    color: #ff6500;
+    background-color: rgba(0, 0, 0, 0);
+}
+.namecin , .namecin:hover{
+    color: #FF6500;
+    font-family: "Bebas Neue" , serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.genermenu {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.genermenu li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blackbg {
+    position: absolute;
+    /* top: 5rem; */
+    /* height: 42.45rem; */
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.blackbg h2 {
+    color: #FF6500;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Protest Strike" , serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.blackbg span {
+    color: beige;
+    font-size: 1.3rem;
+    font-family: "Antic" , serif;
+}
+.othergener a{
+    color: rgba(245, 245, 220, 0.616);
+    text-decoration: none;
+    z-index: 12;
+
+}
+.othergeners {
+    margin-top: 2.1rem;
+}
+.blackbgbot {
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(rgba(0,0,0,0), black);
+}
+
+
+@media (max-width:900px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.15rem;
+        font-family: "Antic" , serif;
+    }
+}
+@media (max-width:700px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1.09rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+@media (max-width:500px) {
+    .blackbg h2 {
+        color: #FF6500;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Protest Strike" , serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .blackbg span {
+        color: beige;
+        font-size: 1rem;
+        font-family: "Antic" , serif;
+    }
+    .namecin , .namecin:hover{
+        color: #FF6500;
+        font-family: "Bebas Neue" , serif;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
+
+.back {
+    width: 100%;
+    height: 400px;
+    background-image: url("./pexels-ihsanaditya-1056251.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.parentha {
+    display: flex;
+    gap: 20px;
+}
+.parent-parentha {
+    display: flex;
+align-items: flex-start;
+flex-direction: column;
+justify-content: center;
+background-color: rgba(255, 255, 255, )0%;
+/* background-color: aquamarine; */
+width: 100%;
+height: 400px;
+}
+
+
+
+.container * {
+    padding: 0;
+    
+}
+
+.div-parent {
+    width: 260px;
+    height: 380px;
+    background: linear-gradient(120deg,rgb(77, 1, 177) ,rgba(37, 25, 199, 0.37), rgb(70, 12, 117));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: center; */
+    border-radius: 15px;
+}
+
+.div-parent:hover {
+    transform: scale(0.999);
+}
+
+.child1 {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 240px;
+    /* background-color: aqua; */
+    border-radius: 17px;
+}
+.child1 img {
+    border-radius: 15px;
+}
+
+.child2 {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 230px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 0.5mm;
+}
+
+.child2 p {
+    color: white;
+}
+
+.child2 h3 {
+    color: #FF6500;
+}
+
+.para-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.row.con {
+    display: flex;
+    gap: 50px;
+}
+
+
+.para3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.parent-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: 50px; */
+    
+}
+
+
+.icone a {
+    border: 1px rgb(182, 182, 182) solid;
+    padding: 10px 14px;
+    margin-right: 3px;
+    transition: 0.3s;
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+    border-radius: 12px;
+    color: beige;
+}
+
+.icone svg{
+color: white;
+transition: 0.2s;
+}
+.icone svg:hover{
+    color: #FF6500;
+}
+
+.icone a:hover {
+   color: #FF6500;
+   border: 1px solid #FF6500;
+}
+
+.parent-links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+.parent-links a:hover {
+    transform-origin: left;
+    transform: scalex(1.05);
+}
+
+.parent-input input{
+border: 1px solid #ffffff;
+background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+}
+
+.parent-input input:hover {
+    border: 1px solid #FF6500;
+}
+
+footer {
+    background: linear-gradient(120deg,rgba(27, 18, 107, 0.37), rgba(16, 1, 29, 0));
+}
+
+/* .footer2 {
+border: 1px solid white;
+} */
+
+.orang {
+    color: #FF6500;
+}
+
+.parent-links svg {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* .icone-tel svg {
+    color: white;
+} */
+
+.button-input {
+    background-color: #ff6500;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.button-input:hover {
+color: #FF6500;
+background-color: #000000;
+/* border: white; */
+}
+
+.parent-button2 {
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-button2 button {
+    padding: 0 50px;
+    background: linear-gradient(120deg,rgba(28, 17, 126, 0.651), rgba(79, 15, 134, 0.712));
+color: white;
+transition: 1s;
+margin-top: 10px;
+}
+
+.parent-button2 button:hover {
+padding: 5px 100px;
+background: linear-gradient(120deg,rgba(77, 11, 139, 0.575), rgba(20, 145, 194, 0.541));
+}
+
+
+
